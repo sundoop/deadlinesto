@@ -4,8 +4,9 @@
     <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
     <title>Deadline</title>
     <link type="text/css" href="deadlines.css" rel="stylesheet" />
-    <script src="js/jquery.min.js"></script>
-    <script src="js/deadlines.js"></script>
+    <script src="lib/js/underscore.js"></script>
+    <script src="lib/js/jquery.min.js"></script>
+    <script src="deadlines.js"></script>
 </head>
 <body id="container">
     <header>
@@ -20,13 +21,14 @@
                 <p>Title:
                     <input type="text" id="title_value" />
                 </p>
-                <p>Date:
-                    <input type="date" id="datepicker" /></p>
-                <p>
-                    <input type="button" id="set_values" value="add" /></p>
+                <!-- <p>Date: <input type="date" id="datepicker" /></p>  -->
+                <p> Date: <input id="datepicker" /></p>
+                <p><input type="button" id="set_values" value="add" /></p>
             </div>
         </form>
     </section>
 </body>
+<script src="lib/datetimepicker/jquery.datetimepicker.js"></script>
+<link type="text/css" href="lib/datetimepicker/jquery.datetimepicker.css" rel="stylesheet" />
 </html>
 

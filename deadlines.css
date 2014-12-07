@@ -3,6 +3,11 @@
     padding: 5px;
 }
 
+html {
+    width:400px;
+    height:600px;
+}
+
 body {
     background: #0f0f0f;
     font-family: Tahoma, sans-serif;
@@ -16,8 +21,8 @@ header, section, footer {
 #container {
     background-color: #eee;
     margin: 0 auto;
-    width: 300px;
     border: 4px solid #222;
+    height:599px;
 }
 
 header h1 {
@@ -35,7 +40,6 @@ label {
 #deadline {
     border: 1px solid #888;
     margin-left: 50px;
-    width: 200px;
 }
 
 #d_list {
