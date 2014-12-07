@@ -1,0 +1,11 @@
+{
+   "browser_action": {
+      "default_icon": "img/ikon.jpg",
+      "default_popup": "popup.html"
+   },
+   "description": "Show deadline to",
+   "manifest_version": 2,
+   "name": "Deadline To",
+   "permissions": [ "storage", "tabs" ],
+   "version": "1.0"
+}
